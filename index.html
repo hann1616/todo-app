@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <button id="themeBtn">🌙 Dark Mode</button>
+
+        <h1>📝 My Todo List</h1>
+        <div class="search-box">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Search tasks..."
+    >
+</div>
+
+        <div class="input-group">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task..."
+            >
+            <button id="addBtn">Add</button>
+        </div>
+
+        <p id="counter">0 / 0 Completed</p>
+
+        <p id="message"></p>
+
+        <ul id="taskList"></ul>
+        <button id="deleteCompletedBtn">
+    🗑 Delete Completed
+</button>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
